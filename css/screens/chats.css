@@ -1,0 +1,12 @@
+.chats__image {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  bottom: 80px;
+}
+
+.chats__image img {
+  width: 250px;
+  height: 250px;
+}

@@ -71,3 +71,22 @@
   display: flex;
   align-items: center;
 }
+
+.user-component__music {
+  background: none;
+  border: none;
+  border: 1.5px solid var(--red);
+  border-radius: 15px;
+  font-size: 13px;
+  padding: 7px;
+}
+
+.user-component__music span,
+.user-component__music i {
+  opacity: 0.7;
+}
+
+.user-component__music i {
+  color: var(--red);
+  margin-left: 5px;
+}
